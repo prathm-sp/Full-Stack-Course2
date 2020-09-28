@@ -1,12 +1,14 @@
 import React from 'react'
 
 export default function part1() {
-    const part = 'State of a component'
-    const exercises = 14
+    const part = {
+        name: 'State of a component',
+        exercises: 14
+    }
     return (
         <div>
             <p>
-                {part} {exercises}
+                {part.name} {part.exercises}
             </p>
         </div>
     )

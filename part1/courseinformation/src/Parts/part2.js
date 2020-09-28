@@ -1,12 +1,14 @@
 import React from 'react'
 
 export default function part1() {
-    const part = 'Using props to pass data'
-    const exercises = 7
+    const part = {
+        name: 'Using props to pass data',
+        exercises: 7
+    }
     return (
         <div>
             <p>
-                {part} {exercises}
+                {part.name} {part.exercises}
             </p>
         </div>
     )
