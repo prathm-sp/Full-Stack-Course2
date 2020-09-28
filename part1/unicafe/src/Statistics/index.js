@@ -14,7 +14,7 @@ export default function Statistic({ text, value }) {
     })
 
     function handleButton(e) {
-        setFeedback(1);
+        setFeedback(true);
         if (e === 'g') {
             setGood(prevGood => prevGood + 1);
         }
